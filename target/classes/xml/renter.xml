@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<renters>
+    <renter>
+        <cmnd>23141234</cmnd>
+        <diaChi>HTB</diaChi>
+        <gioiTinh>Nữ</gioiTinh>
+        <hoTen>àdasfd</hoTen>
+        <ngayDangKi>01-05-2024</ngayDangKi>
+        <ngayHH>24-05-2024</ngayHH>
+        <sdt>124123412</sdt>
+        <soPhong>123</soPhong>
+    </renter>
+    <renter>
+        <cmnd>01237849</cmnd>
+        <diaChi>HN</diaChi>
+        <gioiTinh>Nam</gioiTinh>
+        <hoTen>pádfashdf</hoTen>
+        <ngayDangKi>09-05-2024</ngayDangKi>
+        <ngayHH>23-05-2024</ngayHH>
+        <sdt>15123</sdt>
+        <soPhong>123</soPhong>
+    </renter>
+</renters>

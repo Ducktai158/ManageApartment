@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rooms>
+    <room>
+        <baoDuong>0</baoDuong>
+        <cmnd>01341234</cmnd>
+        <diaChi>HN</diaChi>
+        <dien>0</dien>
+        <gioiTinh>Nữ</gioiTinh>
+        <hoTen>Pham</hoTen>
+        <maPhong>373697</maPhong>
+        <ngayDangKi>16-05-2024</ngayDangKi>
+        <ngayHH>01-05-2024</ngayHH>
+        <nuoc>0</nuoc>
+        <quanLy>500000</quanLy>
+        <renters>
+            <cmnd>23141234</cmnd>
+            <diaChi>HTB</diaChi>
+            <gioiTinh>Nữ</gioiTinh>
+            <hoTen>àdasfd</hoTen>
+            <ngayDangKi>01-05-2024</ngayDangKi>
+            <ngayHH>24-05-2024</ngayHH>
+            <sdt>124123412</sdt>
+            <soPhong>123</soPhong>
+        </renters>
+        <renters>
+            <cmnd>01237849</cmnd>
+            <diaChi>HN</diaChi>
+            <gioiTinh>Nam</gioiTinh>
+            <hoTen>pádfashdf</hoTen>
+            <ngayDangKi>09-05-2024</ngayDangKi>
+            <ngayHH>23-05-2024</ngayHH>
+            <sdt>15123</sdt>
+            <soPhong>123</soPhong>
+        </renters>
+        <sdt>12341234</sdt>
+        <soPhong>123</soPhong>
+        <tinhTrang>Chưa nộp</tinhTrang>
+        <tinhTrangO>Chủ nhà cho thuê</tinhTrangO>
+        <tongPhi>500000</tongPhi>
+        <trongXe>0</trongXe>
+        <veSinh>0</veSinh>
+    </room>
+    <room>
+        <baoDuong>0</baoDuong>
+        <cmnd>13411</cmnd>
+        <diaChi>HN</diaChi>
+        <dien>0</dien>
+        <gioiTinh>Nam</gioiTinh>
+        <hoTen>huhuh</hoTen>
+        <maPhong>185777</maPhong>
+        <ngayDangKi>01-05-2024</ngayDangKi>
+        <ngayHH>31-05-2024</ngayHH>
+        <nuoc>0</nuoc>
+        <quanLy>0</quanLy>
+        <sdt>0134134</sdt>
+        <soPhong>1333</soPhong>
+        <tinhTrang>Đã nộp</tinhTrang>
+        <tinhTrangO>Chủ nhà ở</tinhTrangO>
+        <tongPhi>0</tongPhi>
+        <trongXe>0</trongXe>
+        <veSinh>0</veSinh>
+    </room>
+</rooms>
