@@ -86,15 +86,7 @@ public class AdminController {
         adminView.clearServiceInfo();
         adminView.clearRenterInfo();
     }
-    
-    
-//    class Reset1Listener implements ActionListener{
-//        public void actionPerformed(ActionEvent e) {           
-//            ArrayList<Renter> renterList = roomDao.getRenterList();
-//            adminView.showListRenter(roomDao.getRenterList());
-//            adminView.clearRenterInfo();
-//        }
-//    }
+
     class ListRoomSelectionListener implements ListSelectionListener {
         public void valueChanged(ListSelectionEvent e) {
             adminView.fillRoomFromSelectedRow();
@@ -243,7 +235,7 @@ public class AdminController {
             }
         }
     }        
-//    EditServiceListener
+    // EditServiceListener
     class EditServiceListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             Room room = adminView.getServiceInfor();
@@ -360,8 +352,6 @@ public class AdminController {
     class LogoutListener implements ActionListener{
         
         public void actionPerformed(ActionEvent e){
-//            adminView.setVisible(false);
-//            login.setVisible(true);
               System.exit(0);
         }
     }
@@ -401,7 +391,4 @@ public class AdminController {
             detailController.show();            
         }
     }
-
-
-
 }

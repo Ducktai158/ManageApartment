@@ -55,59 +55,59 @@ Chạy với file jar
 
 #### Màn hình đăng nhập
 
-![Login](https://github.com/Ducktai158/ManageApartment/master/readmeImage/LoginFrame.png)
+![Login](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/LoginFrame.png?raw=true)
 
 - Tài khoản đăng nhập mặc định cho ứng dụng là "admin" và mật khẩu là "admin"
 - Nếu nhập sai tài khoản mật khẩu, ứng dụng sẽ đưa ra thông báo tài khoản mật khẩu bị sai
 
-![LoginFalse](https://github.com/Ducktai158/ManageApartment/master/readmeImage/LoginFalse.png)
+![LoginFalse](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/LoginFalse.png?raw=true)
 
 - Sau khi đăng nhập thành công, ứng dụng sẽ chuyển vào màn hình quản lý thông tin chủ hộ
 
 #### Màn hình quản lý thông tin chủ hộ
 
-![ChuHo](https://github.com/Ducktai158/ManageApartment/master/readmeImage/ChuHo.png)
+![ChuHo](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/ChuHo.png?raw=true)
 
 - Màn hình Quản lí thông tin chủ hộ gồm các chức năng tìm kiếm, sắp xếp và hiển thị các chủ hộ
 
-![ChuHo2](https://github.com/Ducktai158/ManageApartment/master/readmeImage/ChuHo2.png)
+![ChuHo2](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/ChuHo2.png?raw=true)
 
 - Ví dụ khi tìm chủ hộ có tên là "San Nha", ngoài ra có thể tìm kiếm theo mã phòng:
 
-![SearchChuHo](https://github.com/Ducktai158/ManageApartment/master/readmeImage/SearchChuHo.png)
+![SearchChuHo](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/SearchChuHo.png?raw=true)
 
 - Ví dụ khi sắp xếp các chủ hộ theo Tên từ A-Z, ở đây có thể sắp xếp theo các tiêu chí khác nhau như Tên từ Z-A, Trả phí nhiều nhất, Trả phí ít nhất:
 
-![SortChuHo](https://github.com/Ducktai158/ManageApartment/master/readmeImage/SortChuHo.png)
+![SortChuHo](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/SortChuHo.png?raw=true)
 
 - Màn hình Quản lý người thuê cũng có các chức năng tương tự quản lý chủ hộ:
 
-![Thue](https://github.com/Ducktai158/ManageApartment/master/readmeImage/Thue.png)
+![Thue](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/Thue.png?raw=true)
 
 #### Màn hình quản lý thu phí dịch vụ
 
-![ThuTien](https://github.com/Ducktai158/ManageApartment/master/readmeImage/ThuTien.png)
+![ThuTien](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/ThuTien.png?raw=true)
 
 - Ví dụ chỉnh sửa các giá trị tiền phải thu từ các phòng:
 
-![EditThuTien](https://github.com/Ducktai158/ManageApartment/master/readmeImage/EditThuTien.png)
+![EditThuTien](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/EditThuTien.png?raw=true)
 
 - Ví dụ về thống kê doanh thu với ví dụ trên bằng cách nhân vào nút "Thống kê" (vì mới có 2 phòng đã nộp nên có doanh thu từ 2 phòng đó):
 
-![ThongKe](https://github.com/Ducktai158/ManageApartment/master/readmeImage/ThongKe.png)
+![ThongKe](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/ThongKe.png?raw=true)
 
 - Ví dụ xuất thông tin bằng cách nhấn vào nút "Xuất thông tin":
 
 Sau khi nhấn nút "Xuất thông tin":
 
-![InThongTin](https://github.com/Ducktai158/ManageApartment/master/readmeImage/InThongTin.png)
+![InThongTin](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/InThongTin.png?raw=true)
 
 File excel thông tin hiện ở thư mục project:
 
-![FileThongTin](https://github.com/Ducktai158/ManageApartment/master/readmeImage/FileThongTin.png)
+![FileThongTin](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/FileThongTin.png?raw=true)
 
 Mở file excel thông tin để kiểm tra:
 
-![FileThongTin2](https://github.com/Ducktai158/ManageApartment/master/readmeImage/FileThongTin2.png)
+![FileThongTin2](https://github.com/Ducktai158/ManageApartment/blob/master/readmeImage/FileThongTin2.png?raw=true)
 
 

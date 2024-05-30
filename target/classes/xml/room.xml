@@ -14,22 +14,22 @@
         <quanLy>500000</quanLy>
         <renters>
             <cmnd>23141234</cmnd>
-            <diaChi>HTB</diaChi>
+            <diaChi>Hà Nội</diaChi>
             <gioiTinh>Nữ</gioiTinh>
-            <hoTen>àdasfd</hoTen>
-            <ngayDangKi>01-05-2024</ngayDangKi>
-            <ngayHH>24-05-2024</ngayHH>
-            <sdt>124123412</sdt>
+            <hoTen>Nguyễn Lùi</hoTen>
+            <ngayDangKi>09-05-2024</ngayDangKi>
+            <ngayHH>23-05-2025</ngayHH>
+            <sdt>0904123456</sdt>
             <soPhong>123</soPhong>
         </renters>
         <renters>
             <cmnd>01237849</cmnd>
-            <diaChi>HN</diaChi>
-            <gioiTinh>Nam</gioiTinh>
-            <hoTen>pádfashdf</hoTen>
+            <diaChi>Hà Nội</diaChi>
+            <gioiTinh>Nữ</gioiTinh>
+            <hoTen>Nguyễn Tiến</hoTen>
             <ngayDangKi>09-05-2024</ngayDangKi>
             <ngayHH>23-05-2024</ngayHH>
-            <sdt>15123</sdt>
+            <sdt>0903686868</sdt>
             <soPhong>123</soPhong>
         </renters>
         <sdt>12341234</sdt>
@@ -42,18 +42,18 @@
     </room>
     <room>
         <baoDuong>0</baoDuong>
-        <cmnd>13411</cmnd>
-        <diaChi>HN</diaChi>
+        <cmnd>0822030068</cmnd>
+        <diaChi>Thái Bình</diaChi>
         <dien>0</dien>
         <gioiTinh>Nam</gioiTinh>
-        <hoTen>huhuh</hoTen>
-        <maPhong>185777</maPhong>
-        <ngayDangKi>01-05-2024</ngayDangKi>
-        <ngayHH>31-05-2024</ngayHH>
+        <hoTen>Phạm Tuân</hoTen>
+        <maPhong>126999</maPhong>
+        <ngayDangKi>15-05-2024</ngayDangKi>
+        <ngayHH>31-05-2025</ngayHH>
         <nuoc>0</nuoc>
         <quanLy>0</quanLy>
-        <sdt>0134134</sdt>
-        <soPhong>1333</soPhong>
+        <sdt>0945288333</sdt>
+        <soPhong>112</soPhong>
         <tinhTrang>Đã nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
         <tongPhi>0</tongPhi>

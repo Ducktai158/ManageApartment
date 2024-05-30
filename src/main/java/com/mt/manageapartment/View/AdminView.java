@@ -887,7 +887,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         // khởi tạo mảng 2 chiều students, trong đó:
         // số hàng: là kích thước của list student 
         // số cột: là 5
-        String[] columnNames = {"Mã phòng", "Số phòng","Họ và tên", "CMND", "Số điện thoại", "Giới tính", "Quê quán",
+        String[] columnNames = {"Mã phòng", "Số phòng","Họ và tên", "CCCD", "Số điện thoại", "Giới tính", "Quê quán",
             "Ngày đăng kí", "Ngày hết hạn","Tình trạng"};
         Object [][] students = new Object[size][10];
         for (int i = 0; i < size; i++) {
@@ -911,7 +911,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         // khởi tạo mảng 2 chiều students, trong đó:
         // số hàng: là kích thước của list student 
         // số cột: là 5
-        String[] columnNames = {"Số phòng","Họ và tên", "CMND", "Số điện thoại", "Giới tính", "Quê quán", "Ngày đăng kí", "Ngày hết hạn"};
+        String[] columnNames = {"Số phòng","Họ và tên", "CCCD", "Số điện thoại", "Giới tính", "Quê quán", "Ngày đăng kí", "Ngày hết hạn"};
         Object [][] students = new Object[size][8];
         for (int i = 0; i < size; i++) {
             students[i][0] = list.get(i).getSoPhong();
@@ -1041,26 +1041,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
             
             txtMaPhong.setText(tblRooms.getModel().getValueAt(row, 0).toString());
             txtTen.setText(tblRooms.getModel().getValueAt(row, 1).toString());
-            
-            //txtQuanLy.setText(tblServices.getModel().getValueAt(row, 2).toString());
-//            switch (tblServices.getModel().getValueAt(row, 2).toString()) {
-//                case "500.000 VNĐ":
-//                    sortLoaiPhong.setSelectedItem("Loại 1");
-//                    break;
-//                case "1.000.000 VNĐ":
-//                    sortLoaiPhong.setSelectedItem("Loại 2");
-//                    break;
-//                    
-//                case "2.000.000 VNĐ":
-//                    sortLoaiPhong.setSelectedItem("Loại 3");
-//                    break;
-//                case "3.000.000 VNĐ":
-//                    sortLoaiPhong.setSelectedItem("Loại 4");
-//                    break;
-//                default:
-//                    throw new AssertionError();
-//            }
-//            
+ 
             txtDien.setText(tblServices.getModel().getValueAt(row, 3).toString());
             txtNuoc.setText(tblServices.getModel().getValueAt(row, 4).toString());
             txtBaoDuong.setText(tblServices.getModel().getValueAt(row, 5).toString());
@@ -1080,10 +1061,8 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         txtTen.setText(room.getHoTen());
         txtCmnd.setText("" + room.getCmnd());
         txtDiaChi.setText(""+room.getDiaChi());  
-        //txtGioiTinh.setText("" + room.getGioiTinh());
-        //txtNgayDK.setText("" + room.getNgayDangKi());
         txtSDT.setText("" + room.getSdt());
-        //txtQuanLy.setText("" + 0);
+
         txtDien.setText("" + 0);
         txtNuoc.setText("" + 0);
         txtBaoDuong.setText("" + 0);
@@ -1109,7 +1088,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         txtTenRenter.setText(renter.getHoTen());
         txtCmndRenter.setText("" + renter.getCmnd());
         txtDiaChiRenter.setText(""+renter.getDiaChi());  
-        //txtNgayDKRenter.setText("" + renter.getNgayDangKi());
+
         txtSDTRenter.setText("" + renter.getSdt());
        
         switch (renter.getGioiTinh()) {
@@ -1132,7 +1111,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         txtVesinh.setText("" + formatNumberWithCommas(room.getVeSinh()) +" VNĐ");
         txtTrongXe.setText("" + formatNumberWithCommas(room.getTrongXe()) +" VNĐ");
         sortNop.setSelectedItem(""+room.getTinhTrang());
-        //txtQuanLy.setText("" + formatNumberWithCommas(room.getQuanLy()) +" VNĐ");
+
 
         
         btnEditService.setEnabled(true);
@@ -1163,7 +1142,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
             room.setHoTen(txtTen.getText().trim());
             room.setCmnd(txtCmnd.getText().trim());
             room.setDiaChi(txtDiaChi.getText().trim());
-            //room.setNgayDangKi(txtNgayDK.getText().trim());
+
             room.setSdt(txtSDT.getText().trim());
             room.setQuanLy(0);  
             room.setDien(0);  
@@ -1197,11 +1176,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
             
             room.setTinhTrang((String) sortNop.getSelectedItem());
             
-//            String priceQL = txtQuanLy.getText().trim();
-//            String strippedQL = priceQL.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số
-//            int valueQL = Integer.parseInt(strippedQL);
-//            room.setQuanLy(valueQL);
-            
+           
             
             String priceDien = txtDien.getText().trim();
             String strippedDien = priceDien.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số
@@ -1223,10 +1198,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
             int valueVS = Integer.parseInt(strippedVS);
             room.setVeSinh(valueVS);
             
-//            String priceTX = txtTrongXe.getText().trim();
-//            String strippedTX = priceTX.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số
-//            int valueTX = Integer.parseInt(strippedTX);
-//            room.setTrongXe(valueTX);
+
             int tienTrongXe = Integer.parseInt(txtNumOto.getText())*10000 + 
                     Integer.parseInt(txtNumDap.getText())*2000 + Integer.parseInt(txtNumMay.getText())*5000;
             room.setTrongXe(tienTrongXe);
@@ -1292,11 +1264,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
             room.setTinhTrang((String) sortNop.getSelectedItem());
                         
             
-//            String priceQL = txtQuanLy.getText().trim();
-//            String strippedQL = priceQL.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số
-//            int valueQL = Integer.parseInt(strippedQL);
-//            room.setQuanLy(valueQL);
-//            
+
             switch ((String)sortLoaiPhong.getSelectedItem()) {
                 case "Loại 1":
                     room.setQuanLy(500000);
@@ -1481,44 +1449,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
             return true;
         }
     }
-//    private boolean validateDate() {
-//        String date = txtNgayDK.getText();
-//        if (date == null || "".equals(date.trim())) {
-//            txtNgayDK.requestFocus();
-//            showMessage("Ngày đăng kí không được để trống");
-//            return false;
-//        } else {
-//            DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-//            //dateFormat.setLenient(false);
-//            try {
-//                dateFormat.parse(date.trim()); 
-//            } catch (DateTimeParseException e) {
-//                txtNgayDK.requestFocus();
-//                showMessage("Ngày đăng kí không hợp lệ. Ví dụ ngày đăng kí: 01/01/2003");
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
-//    private boolean validateDateRenter() {
-//        String date = txtNgayDKRenter.getText();
-//        if (date == null || "".equals(date.trim())) {
-//            txtNgayDKRenter.requestFocus();
-//            showMessage("Ngày đăng kí không được để trống");
-//            return false;
-//        } else {
-//            DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-//            //dateFormat.setLenient(false);
-//            try {
-//                dateFormat.parse(date.trim()); 
-//            } catch (DateTimeParseException e) {
-//                txtNgayDKRenter.requestFocus();
-//                showMessage("Ngày đăng kí không hợp lệ. Ví dụ ngày đăng kí: 01/01/2003");
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
+
     private boolean validateAddress() {
         String name = txtDiaChi.getText();
         if (name == null || "".equals(name.trim())) {
@@ -1588,20 +1519,7 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         }
         
     }
-//    private boolean validateQuanLy() {
-//        String numQuanLy = txtQuanLy.getText();
-//        String stripped = numQuanLy.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số
-//        
-//        try {
-//            Integer.parseInt(stripped);
-//            
-//            return true;
-//        } catch (NumberFormatException e) {
-//            txtQuanLy.requestFocus();
-//            showMessage("Sai định dạng số tiền Quản lý");
-//            return false;
-//        }
-//    }
+
     private boolean validateDien() {
         String numDien = txtDien.getText();
         String stripped = numDien.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số

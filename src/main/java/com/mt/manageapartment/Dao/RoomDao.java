@@ -167,13 +167,8 @@ public class RoomDao {
     public int edit(Room room) {
         int size = roomList.size();
         boolean checkTrung = false;
-//        for (int i = 0; i < size; i++) {
-//            if(roomList.get(i).getCmnd().equals(room.getCmnd())){
-//                checkTrung = true;
-//            } else { checkTrung = false;}
-//        }
         for (int i = 0; i < size; i++) {
-//            if(checkTrung == false){
+
                 if (roomList.get(i).getMaPhong().equals(room.getMaPhong())) {
                     roomList.get(i).setHoTen(room.getHoTen());
                     roomList.get(i).setMaPhong(room.getMaPhong());
@@ -188,7 +183,6 @@ public class RoomDao {
                     writeListRooms(roomList);
                     break;
                 }
-            //}
         }
         if(checkTrung) return 1;
         return 0;
@@ -210,10 +204,6 @@ public class RoomDao {
                             roomList.get(i).getRenters().get(j).setNgayHH(renter.getNgayHH());
                             roomList.get(i).getRenters().get(j).setSdt(renter.getSdt());
 
-//                            if(soPhongOK){
-//                                roomList.get(i).getRenters().get(j).setSoPhong(renter.getSoPhong());
-//                            }
-//                            addRenter(renter);
                             writeListRooms(roomList);
                             
                             for (int k = 0; k < size; k++) {
@@ -225,10 +215,7 @@ public class RoomDao {
                                     renterList.get(k).setNgayDangKi(renter.getNgayDangKi());
                                     renterList.get(k).setNgayHH(renter.getNgayHH());
                                     renterList.get(k).setSdt(renter.getSdt());
-//                                    if(soPhongOK){
-//                                        renterList.get(k).setSoPhong(renter.getSoPhong());
-//                                    }
-                                    //renterList.get(k).setSoPhong(renter.getSoPhong());
+
                                     writeListRenters(renterList);                                  
                                 }
                             }
@@ -297,10 +284,7 @@ public class RoomDao {
             writeListRenters(renterList);
             int size2 = roomList.size();
             for(int i = 0; i < size2; i++){
-//                for(int j = 0; j < roomList.get(i).getRenters().size(); j++){
-//                    if(roomList.get(i).getRenters().get(j).getCmnd().equals(renter.getCmnd())){
-//                        roomList.get(i).getRenters().remove(renter);
-//                    }
+
                 if(roomList.get(i).getSoPhong().equals(renter.getSoPhong())){
                     ArrayList<Renter> renters = roomList.get(i).getRenters();
                     for(Renter r : renters){
