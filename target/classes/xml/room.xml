@@ -36,8 +36,8 @@
         <soPhong>123</soPhong>
         <tinhTrang>Chưa nộp</tinhTrang>
         <tinhTrangO>Chủ nhà cho thuê</tinhTrangO>
-        <tongPhi>500000</tongPhi>
-        <trongXe>0</trongXe>
+        <tongPhi>1600000</tongPhi>
+        <trongXe>1100000</trongXe>
         <veSinh>0</veSinh>
     </room>
     <room>
@@ -56,8 +56,8 @@
         <soPhong>104</soPhong>
         <tinhTrang>Đã nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
-        <tongPhi>13498423</tongPhi>
-        <trongXe>900000</trongXe>
+        <tongPhi>13648423</tongPhi>
+        <trongXe>1050000</trongXe>
         <veSinh>30000</veSinh>
     </room>
     <room>
@@ -116,8 +116,8 @@
         <soPhong>112</soPhong>
         <tinhTrang>Chưa nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
-        <tongPhi>2120000</tongPhi>
-        <trongXe>900000</trongXe>
+        <tongPhi>2320000</tongPhi>
+        <trongXe>1100000</trongXe>
         <veSinh>20000</veSinh>
     </room>
 </rooms>
