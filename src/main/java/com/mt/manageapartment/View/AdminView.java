@@ -1112,8 +1112,6 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
         txtTrongXe.setText("" + formatNumberWithCommas(room.getTrongXe()) +" VNĐ");
         sortNop.setSelectedItem(""+room.getTinhTrang());
 
-
-        
         btnEditService.setEnabled(true);
 
 

@@ -3,13 +3,13 @@
     <room>
         <baoDuong>0</baoDuong>
         <cmnd>01341234</cmnd>
-        <diaChi>HN</diaChi>
+        <diaChi>Hà Nội</diaChi>
         <dien>0</dien>
         <gioiTinh>Nữ</gioiTinh>
-        <hoTen>Pham</hoTen>
+        <hoTen>Nguyễn Huệ</hoTen>
         <maPhong>373697</maPhong>
         <ngayDangKi>16-05-2024</ngayDangKi>
-        <ngayHH>01-05-2024</ngayHH>
+        <ngayHH>30-05-2025</ngayHH>
         <nuoc>0</nuoc>
         <quanLy>500000</quanLy>
         <renters>
@@ -32,8 +32,8 @@
             <sdt>0903686868</sdt>
             <soPhong>123</soPhong>
         </renters>
-        <sdt>12341234</sdt>
-        <soPhong>123</soPhong>
+        <sdt>012341234</sdt>
+        <soPhong>134</soPhong>
         <tinhTrang>Chưa nộp</tinhTrang>
         <tinhTrangO>Chủ nhà cho thuê</tinhTrangO>
         <tongPhi>500000</tongPhi>
@@ -41,23 +41,83 @@
         <veSinh>0</veSinh>
     </room>
     <room>
-        <baoDuong>0</baoDuong>
+        <baoDuong>1818221</baoDuong>
+        <cmnd>02333992</cmnd>
+        <diaChi>Hải Phòng</diaChi>
+        <dien>50000</dien>
+        <gioiTinh>Nam</gioiTinh>
+        <hoTen>Bùi Xuân</hoTen>
+        <maPhong>144620</maPhong>
+        <ngayDangKi>10-05-2024</ngayDangKi>
+        <ngayHH>30-05-2025</ngayHH>
+        <nuoc>10200202</nuoc>
+        <quanLy>500000</quanLy>
+        <sdt>023423421</sdt>
+        <soPhong>104</soPhong>
+        <tinhTrang>Đã nộp</tinhTrang>
+        <tinhTrangO>Chủ nhà ở</tinhTrangO>
+        <tongPhi>12618423</tongPhi>
+        <trongXe>20000</trongXe>
+        <veSinh>30000</veSinh>
+    </room>
+    <room>
+        <baoDuong>102022</baoDuong>
+        <cmnd>023339922</cmnd>
+        <diaChi>Hải Dương</diaChi>
+        <dien>100000</dien>
+        <gioiTinh>Nam</gioiTinh>
+        <hoTen>Nguyễn Trãi</hoTen>
+        <maPhong>134133</maPhong>
+        <ngayDangKi>31-05-2022</ngayDangKi>
+        <ngayHH>31-05-2024</ngayHH>
+        <nuoc>800000</nuoc>
+        <quanLy>3000000</quanLy>
+        <sdt>09898982</sdt>
+        <soPhong>105</soPhong>
+        <tinhTrang>Đã nộp</tinhTrang>
+        <tinhTrangO>Không có ai ở</tinhTrangO>
+        <tongPhi>4052022</tongPhi>
+        <trongXe>20000</trongXe>
+        <veSinh>30000</veSinh>
+    </room>
+    <room>
+        <baoDuong>100000</baoDuong>
+        <cmnd>02223838</cmnd>
+        <diaChi>Nghệ An</diaChi>
+        <dien>10000</dien>
+        <gioiTinh>Nữ</gioiTinh>
+        <hoTen>Phạm Thị Nga</hoTen>
+        <maPhong>140764</maPhong>
+        <ngayDangKi>18-05-2024</ngayDangKi>
+        <ngayHH>16-05-2025</ngayHH>
+        <nuoc>100000</nuoc>
+        <quanLy>2000000</quanLy>
+        <sdt>097397894</sdt>
+        <soPhong>122</soPhong>
+        <tinhTrang>Đã nộp</tinhTrang>
+        <tinhTrangO>Chủ nhà ở</tinhTrangO>
+        <tongPhi>2267000</tongPhi>
+        <trongXe>7000</trongXe>
+        <veSinh>50000</veSinh>
+    </room>
+    <room>
+        <baoDuong>500000</baoDuong>
         <cmnd>0822030068</cmnd>
         <diaChi>Thái Bình</diaChi>
-        <dien>0</dien>
+        <dien>100000</dien>
         <gioiTinh>Nam</gioiTinh>
         <hoTen>Phạm Tuân</hoTen>
         <maPhong>126999</maPhong>
         <ngayDangKi>15-05-2024</ngayDangKi>
         <ngayHH>31-05-2025</ngayHH>
-        <nuoc>0</nuoc>
-        <quanLy>0</quanLy>
+        <nuoc>100000</nuoc>
+        <quanLy>1000000</quanLy>
         <sdt>0945288333</sdt>
         <soPhong>112</soPhong>
-        <tinhTrang>Đã nộp</tinhTrang>
+        <tinhTrang>Chưa nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
-        <tongPhi>0</tongPhi>
-        <trongXe>0</trongXe>
-        <veSinh>0</veSinh>
+        <tongPhi>1752000</tongPhi>
+        <trongXe>32000</trongXe>
+        <veSinh>20000</veSinh>
     </room>
 </rooms>

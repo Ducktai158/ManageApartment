@@ -80,11 +80,13 @@ public class AdminController {
     }
     public void showRoomview(){
         ArrayList<Room> roomList = roomDao.getRoomList();
+        
         adminView.setVisible(true);
         adminView.showListRoom(roomList);
         adminView.showListService(roomList);
         adminView.clearServiceInfo();
         adminView.clearRenterInfo();
+
     }
 
     class ListRoomSelectionListener implements ListSelectionListener {
@@ -116,8 +118,8 @@ public class AdminController {
                     adminView.showListRoom(roomDao.getRoomList());
                     adminView.showMessage("Thêm phòng của "+room.getHoTen()+" thành công!");
                     adminView.clearRoomInfo();
+                    adminView.showListService(roomDao.getRoomList());
                 }
-                
             }
 
         }
@@ -208,13 +210,16 @@ public class AdminController {
             Room room = adminView.getRoomInfor();
             if (room != null) {
                 int found = roomDao.edit(room);
-                if(found == 0){
+                if(found == 1){
                     adminView.showRoom(room);
                     adminView.showListRoom(roomDao.getRoomList());
                     adminView.showMessage("Cập nhật thông tin cho phòng của "+room.getHoTen()+" thành công!");
                 }
-                if(found == 1){
-                    adminView.showMessage("Số CMND đã tồn tại");
+                if(found == -1){
+                    adminView.showMessage("Số phòng đã tồn tại");
+                }
+                if(found == -2){
+                    adminView.showMessage("Số CCCD đã tồn tại");
                 }
                 showRoomview();
                 showRenterView();
