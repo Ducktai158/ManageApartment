@@ -218,30 +218,6 @@ public class RoomDao {
     }
     return 0; // Return 0 if no matching room was found
 }
-//    public int edit(Room room) {
-//        int size = roomList.size();
-//        boolean checkTrung = false;
-//        for (int i = 0; i < size; i++) {
-//
-//                if (roomList.get(i).getMaPhong().equals(room.getMaPhong())
-//                        &&roomList.get(i).getSoPhong().equals(room.getSoPhong())) {
-//                    roomList.get(i).setHoTen(room.getHoTen());
-//                    roomList.get(i).setSoPhong(room.getSoPhong());
-//                    roomList.get(i).setCmnd(room.getCmnd());
-//                    roomList.get(i).setDiaChi(room.getDiaChi());
-//                    roomList.get(i).setGioiTinh(room.getGioiTinh());
-//                    roomList.get(i).setNgayDangKi(room.getNgayDangKi());
-//                    roomList.get(i).setNgayHH(room.getNgayHH());
-//                    roomList.get(i).setSdt(room.getSdt());
-//                    roomList.get(i).setTinhTrangO(room.getTinhTrangO());
-//
-//                    writeListRooms(roomList);
-//                    break;
-//                }
-//        }
-//        if(checkTrung) return 1;
-//        return 0;
-//    }
     
     public int editRenter(Renter renter) {
         int size = renterList.size();

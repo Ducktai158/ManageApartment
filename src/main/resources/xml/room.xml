@@ -36,8 +36,8 @@
         <soPhong>123</soPhong>
         <tinhTrang>Chưa nộp</tinhTrang>
         <tinhTrangO>Chủ nhà cho thuê</tinhTrangO>
-        <tongPhi>500000</tongPhi>
-        <trongXe>0</trongXe>
+        <tongPhi>1600000</tongPhi>
+        <trongXe>1100000</trongXe>
         <veSinh>0</veSinh>
     </room>
     <room>
@@ -56,8 +56,8 @@
         <soPhong>104</soPhong>
         <tinhTrang>Đã nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
-        <tongPhi>12618423</tongPhi>
-        <trongXe>20000</trongXe>
+        <tongPhi>13648423</tongPhi>
+        <trongXe>1050000</trongXe>
         <veSinh>30000</veSinh>
     </room>
     <room>
@@ -71,13 +71,13 @@
         <ngayDangKi>31-05-2022</ngayDangKi>
         <ngayHH>31-05-2024</ngayHH>
         <nuoc>800000</nuoc>
-        <quanLy>3000000</quanLy>
+        <quanLy>500000</quanLy>
         <sdt>09898982</sdt>
         <soPhong>105</soPhong>
         <tinhTrang>Đã nộp</tinhTrang>
         <tinhTrangO>Không có ai ở</tinhTrangO>
-        <tongPhi>4052022</tongPhi>
-        <trongXe>20000</trongXe>
+        <tongPhi>1932022</tongPhi>
+        <trongXe>400000</trongXe>
         <veSinh>30000</veSinh>
     </room>
     <room>
@@ -91,13 +91,13 @@
         <ngayDangKi>18-05-2024</ngayDangKi>
         <ngayHH>16-05-2025</ngayHH>
         <nuoc>100000</nuoc>
-        <quanLy>2000000</quanLy>
+        <quanLy>500000</quanLy>
         <sdt>097397894</sdt>
         <soPhong>122</soPhong>
         <tinhTrang>Đã nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
-        <tongPhi>2267000</tongPhi>
-        <trongXe>7000</trongXe>
+        <tongPhi>1660000</tongPhi>
+        <trongXe>900000</trongXe>
         <veSinh>50000</veSinh>
     </room>
     <room>
@@ -111,13 +111,13 @@
         <ngayDangKi>15-05-2024</ngayDangKi>
         <ngayHH>31-05-2025</ngayHH>
         <nuoc>100000</nuoc>
-        <quanLy>1000000</quanLy>
+        <quanLy>500000</quanLy>
         <sdt>0945288333</sdt>
         <soPhong>112</soPhong>
         <tinhTrang>Chưa nộp</tinhTrang>
         <tinhTrangO>Chủ nhà ở</tinhTrangO>
-        <tongPhi>1752000</tongPhi>
-        <trongXe>32000</trongXe>
+        <tongPhi>2320000</tongPhi>
+        <trongXe>1100000</trongXe>
         <veSinh>20000</veSinh>
     </room>
 </rooms>

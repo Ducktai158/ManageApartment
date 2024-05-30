@@ -1303,8 +1303,8 @@ public class AdminView extends javax.swing.JFrame implements ActionListener{
 //            String strippedTX = priceTX.replaceAll("[^\\d]", ""); // loại bỏ tất cả các ký tự không phải là số
 //            int valueTX = Integer.parseInt(strippedTX);
 //            room.setTrongXe(valueTX);
-            int tienTrongXe = Integer.parseInt(txtNumOto.getText())*10000 + 
-                    Integer.parseInt(txtNumDap.getText())*2000 + Integer.parseInt(txtNumMay.getText())*5000;
+            int tienTrongXe = Integer.parseInt(txtNumOto.getText())*500000 + 
+                    Integer.parseInt(txtNumDap.getText())*150000 + Integer.parseInt(txtNumMay.getText())*200000;
             room.setTrongXe(tienTrongXe);
             
             return room;

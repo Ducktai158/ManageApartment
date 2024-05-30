@@ -21,7 +21,7 @@ Tại tab thu tiền phòng:
 - Xuất file excel thông tin về thu tiền phí dịch vụ phòng trọ
 - Lưu ý: (có thể tuỳ chỉnh cho phù hợp với mô hình kinh doanh)
 + Tiền phòng: Loại 1: 500.000đ, Loại 2: 1.000.000đ, Loại 3: 2.000.000đ, Loại 4: 3.000.000đ
-+ Tiền thuê xe: Xe ô tô: 10.000đ, Xe máy: 5.000đ, Xe đạp: 2.000đ
++ Tiền thuê xe: Xe ô tô: 500.000đ, Xe máy: 200.000đ, Xe đạp: 150.000đ
 
 ## 🛠️ Cài đặt
 
